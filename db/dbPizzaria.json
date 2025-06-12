@@ -1,0 +1,52 @@
+{
+  "massas": [
+    { "id": 1, "tipo": "Tradicional" },
+    { "id": 2, "tipo": "Pan" },
+    { "id": 3, "tipo": "Integral" },
+    { "id": 4, "tipo": "Sem glúten" }
+  ],
+  "molhos": [
+    { "id": 1, "tipo": "Tomate" },
+    { "id": 2, "tipo": "Branco" },
+    { "id": 3, "tipo": "Barbecue" }
+  ],
+  "sabores": [
+    { "id": 1, "nome": "Calabresa" },
+    { "id": 2, "nome": "Quatro Queijos" },
+    { "id": 3, "nome": "Frango com Catupiry" },
+    { "id": 4, "nome": "Marguerita" },
+    { "id": 5, "nome": "Vegetariana" }
+  ],
+  "adicionais": [
+    { "id": 1, "tipo": "Azeitona" },
+    { "id": 2, "tipo": "Cebola" },
+    { "id": 3, "tipo": "Bacon" },
+    { "id": 4, "tipo": "Ovo" }
+  ],
+  "status": [
+    { "id": 1, "tipo": "Solicitado" },
+    { "id": 2, "tipo": "Preparando" },
+    { "id": 3, "tipo": "Saiu para entrega" },
+    { "id": 4, "tipo": "Entregue" }
+  ],
+  "pizzas": [
+    {
+      "id": 1,
+      "cliente": "Ana Silva",
+      "massa": "Pan",
+      "molho": "Tomate",
+      "sabores": ["Calabresa", "Quatro Queijos"],
+      "adicionais": ["Bacon", "Azeitona"],
+      "status": "Solicitado"
+    },
+    {
+      "id": 2,
+      "cliente": "Carlos Souza",
+      "massa": "Integral",
+      "molho": "Branco",
+      "sabores": ["Vegetariana"],
+      "adicionais": ["Cebola"],
+      "status": "Preparando"
+    }
+  ]
+}
