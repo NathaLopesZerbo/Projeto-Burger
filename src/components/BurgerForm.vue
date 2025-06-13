@@ -85,4 +85,32 @@
         margin-bottom:20px ;
     }
 
+    .checkbox-container span,
+    .checkbox-container input{
+        width: auto;
+    }
+
+    .checkbox-container span{
+        margin-left: 6px;
+        font-weight: bold;
+    }
+
+    .submit-btn{
+        background-color: #222;
+        color: #FCBA03;
+        font-weight: bold;
+        border: 2px solid #222;
+        padding: 10px;
+        font-size: 16px;
+        margin: 0 auto;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .submit-btn:hover{
+        background-color: transparent;
+        color: #222;
+    }
+
+
 </style>
