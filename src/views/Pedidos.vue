@@ -2,16 +2,18 @@
     <Banner />
     <div class="main-container">
         <h1>Pedidos</h1>
+        <Dashboard /> 
     </div>
 </template>
 
+
 <script>
-    import Banner from '../components/Banner.vue';
+import Dashboard from '@/components/Dashboard.vue';
 
     export default{
-        name:'Pedidos',
-        components:{
-            Banner
+        name: 'Pedidos',
+        components: {
+            Dashboard,
         }
     }
 </script>
