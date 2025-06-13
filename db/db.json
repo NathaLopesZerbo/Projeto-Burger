@@ -65,41 +65,58 @@
   },
   "status": [
     {
-      "id": 1,
+      "id": "1",
       "tipo": "Solicitado"
     },
     {
-      "id": 2,
+      "id": "2",
       "tipo": "Em produção"
     },
     {
-      "id": 3,
+      "id": "3",
       "tipo": "Finalizado"
     }
   ],
   "burgers": [
     {
-      "nome": "Matheus Battisti",
-      "carne": "Picanha",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon",
-        "Salame",
-        "Cebola roxa"
-      ],
-      "status": "Finalizado",
-      "id": 1
-    },
-    {
-      "nome": "João Coelho",
-      "carne": "Maminha",
+      "id": "0bff",
+      "nome": "Teste",
+      "carne": "Veggie burger",
       "pao": "3 Queijos",
       "opcionais": [
-        "Salame",
-        "Cebola roxa"
+        "Bacon"
       ],
-      "status": "Solicitado",
-      "id": 4
+      "status": "Solicitado"
+    },
+    {
+      "id": "cbdd",
+      "nome": "asd",
+      "carne": "Alcatra",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "9752",
+      "nome": "Teste 3",
+      "carne": "Maminha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "040c",
+      "nome": "Teste 3",
+      "carne": "Veggie burger",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Solicitado"
     }
   ]
 }
